@@ -1,0 +1,42 @@
+#box-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#header img {
+	margin-bottom: 1em;
+	height:11%;
+	width:11%;
+	min-width: 100px;
+	
+
+}
+#header-p {
+	font-size: 1.8em;
+	font-weight: 500;
+	width: 50%;
+	text-transform: uppercase;
+	/*background-color: #e99002;*/
+
+	padding-bottom: 1em;
+	text-align: center;
+	border-radius: 0 0 50% 0;
+	border-bottom: 2px solid #0379b7;
+}
+#banner-image {
+	height:250px;
+	width: auto;
+	background-image: url("images/banner.jpg");
+	background-size: auto 100%;
+	background-repeat: repeat;
+	/* min-width: 400px; */
+	margin-top: 3em;
+
+}
+section.box {
+	align-items: stretch;
+}
+.bo .histo {
+	align-self: stretch;
+}
